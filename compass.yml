@@ -1,0 +1,16 @@
+name: Azure-Verified-Modules
+id: ari:cloud:compass:710800ae-63a2-4399-8ad0-12fe7c5f2374:component/423e3dc4-d6c4-40cd-bc1a-541cc11cd3f1/fd7b0ed2-de4d-4aca-adcc-49108aaaf482
+description: Azure Verified Modules (AVM) is an initiative to consolidate and set the standards for what a good Infrastructure-as-Code module looks like. Modules will then align to these standards, across languages (Bicep, Terraform etc.) and will then be classified as AVMs and available from their respective language specific registries.
+configVersion: 1
+typeId: SERVICE
+fields:
+  tier: 4
+links:
+  - name: null
+    type: REPOSITORY
+    url: https://github.com/OS-APLET-lukas-jane/Azure-Verified-Modules
+relationships:
+  DEPENDS_ON: []
+labels:
+  - source:github
+customFields: null
